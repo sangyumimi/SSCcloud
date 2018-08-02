@@ -1,0 +1,32 @@
+.box {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.key {
+  display: flex;
+}
+
+.value {
+  display: flex;
+}
+
+@media screen and (max-width:125em) {
+  .key {
+    flex-basis: 100%;
+  }
+  .value {
+    /* flex-basis: 100%; */
+    padding-left: 1em;
+  }
+}
+
+@media screen and (max-width:54em) {
+  .key {
+    flex-basis: 100%;
+  }
+  .value {
+    flex-basis: 100%;
+    padding-left: 1em;
+  }
+}
